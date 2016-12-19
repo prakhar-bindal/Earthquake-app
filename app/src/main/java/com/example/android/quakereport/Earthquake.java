@@ -8,12 +8,14 @@ public class Earthquake {
     private  Double mag;
     private String place;
     private long date;
+    private String url;
 
-    public Earthquake(Double mag,String place,long date)
+    public Earthquake(Double mag,String place,long date,String url)
     {
         this.mag=mag;
         this.place = place;
         this.date = date;
+        this.url = url;
     }
 
 
@@ -29,6 +31,7 @@ public class Earthquake {
     {
         return date;
     }
+    public String geturl() {return url;}
 
 
 }
