@@ -25,6 +25,8 @@ import static com.example.android.quakereport.EarthquakeActivity.LOG_TAG;
  */
 public final class QueryUtils {
 
+
+
     /** Sample JSON response for a USGS query */
     private QueryUtils() {
     }
@@ -35,6 +37,7 @@ public final class QueryUtils {
      *
      */
     public static ArrayList<Earthquake> fetchEarthquakeData(String requestUrl) {
+
         // Create URL object
         URL url = createUrl(requestUrl);
 
